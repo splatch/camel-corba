@@ -1,0 +1,9 @@
+module Camel {
+
+    module Output {
+        interface Component {
+            void call(out string value);
+        };
+    };
+
+};
